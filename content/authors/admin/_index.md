@@ -94,7 +94,7 @@ skills:
         icon:
 
       - name: TensorFlow
-        description:''
+        description: ''
         percent: 100
         icon:
         
