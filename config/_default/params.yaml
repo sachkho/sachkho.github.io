@@ -13,9 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'McGill University, EPFL'
-    description: 'Personal portfolio of Amin Abyaneh, a PhD candidate at McGill University.'
-    twitter: 'aminabyaneh'
+    org_name: 'Télécom Paris, PSL University'
+    description: "Personal portfolio of Sacha Khosrowshahi, a Master'student at Télécom Paris and PSL University."
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,7 +34,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Amin Abyaneh"
+      text: "Sacha Khosrowshahi"
 
 # Site footer
 footer:
