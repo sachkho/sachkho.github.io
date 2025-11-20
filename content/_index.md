@@ -24,13 +24,20 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: 'Simple Shiny.svg'
+          filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
-    
+  - block: markdown
+    content:
+      title: 'Research Overview'
+      subtitle: ''
+      text: |-
+        I believe that prioritizing research into the safety of decision-making systems will enable the swift and responsible real-world deployment of cutting-edge AI advancements. My research is focused on **safe and robust imitation and reinforcement learning for robotic systems**, with a special emphasis on two key areas: out-of-distribution recovery and generalization through neural ordinary differential equations. This not just about advancing theory; it is about ensuring the practical deployment of safe and reliable policies into a variety of real-world robotic systems.
+
+        If anything that you see here sounds interesting to you, please reach out to ask questions or collaborate 😃
     design:
       columns: '1'
     design:
