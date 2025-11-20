@@ -30,9 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-        
-
-        If anything that you see here sounds interesting to you, please reach out to ask questions or collaborate 😃
+    
     design:
       columns: '1'
     design:
