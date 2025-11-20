@@ -71,7 +71,7 @@ education:
 awards:
   - title: "Finalist medal for the French Debate Association"
     url: "https://www.telecom-paris.fr/debating-final"
-    date: "2024-04"
+    date: "2024-04-01"
     awarder: "Assemblée Nationale, France"
     summary: |
       National competition of debating, final took place at the Assemblée Nationale.
