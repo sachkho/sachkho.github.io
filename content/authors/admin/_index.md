@@ -55,7 +55,7 @@ education:
     date_end: ''
     summary: |
       GPA: 3.8/4.0
-  - area: BSc, Mathematics (CPGE classes préparatoires aux grandes écoles option : MP)
+  - area: "BSc, Mathematics (CPGE classes préparatoires aux grandes écoles option : MP)"
     institution: Lycée Marcelin-Berthelot
     date_start: 2021-09-01
     date_end: 2023-07-01
@@ -93,7 +93,7 @@ skills:
         percent: 100
         icon:
 
-      - name : TensorFlow
+      - name: TensorFlow
         description:''
         percent: 100
         icon:
