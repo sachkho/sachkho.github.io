@@ -1,0 +1,14 @@
+<!-- Display PDF file -->
+<div class="pdf-container" style="width: 100%; margin: 1rem 0;">
+  <iframe 
+    src="{{ include.path }}" 
+    type="application/pdf" 
+    width="100%" 
+    height="600px"
+    style="border: 1px solid #ddd; border-radius: 0.25rem;">
+    <p>Your browser does not support PDF embedding. <a href="{{ include.path }}" target="_blank">Download the PDF</a></p>
+  </iframe>
+  {% if include.caption %}
+  <p class="caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
