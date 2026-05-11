@@ -2,7 +2,7 @@
 layout: page
 title: "Semantic StyleGAN: Latent Space Manipulation"
 description: "Semantic manipulation of images through StyleGAN's latent space"
-img: assets/img/1.jpg
+img: assets/img/stylegan.png
 importance: 1
 category: work
 ---

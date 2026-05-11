@@ -2,7 +2,7 @@
 layout: page
 title: "Improving GAN Precision and Recall through GMM and Gradient Ascent"
 description: "Balancing precision and recall in Generative Adversarial Networks"
-img:
+img: assets/img/GAN.png
 importance: 4
 category: work
 ---

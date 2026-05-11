@@ -2,7 +2,7 @@
 layout: page
 title: "Microtexture Inpainting using Gaussian Models"
 description: "Stochastic synthesis of micro-textures using ADSN model"
-img: assets/img/3.jpg
+img: assets/img/inpainting.png
 importance: 2
 category: work
 ---

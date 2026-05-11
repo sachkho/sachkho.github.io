@@ -2,7 +2,7 @@
 layout: page
 title: "3D Surface Reconstruction: Noise-to-Noise Mapping"
 description: "Reconstructing 3D surfaces from noisy point clouds using neural implicit functions"
-img: assets/img/7.jpg
+img: assets/img/3D.png
 importance: 3
 category: work
 ---
