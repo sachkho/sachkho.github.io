@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Research Project 1"
-description: "A description of your research project"
+title: "Semantic StyleGAN: Latent Space Manipulation"
+description: "Semantic manipulation of images through StyleGAN's latent space"
 img: assets/img/1.jpg
 importance: 1
 category: work
@@ -9,19 +9,31 @@ category: work
 
 ## Project Overview
 
-Add a detailed description of your research project here. What was the goal? What methods did you use? What were the key findings?
+This project explores semantic manipulation of images in StyleGAN2's latent space, implementing several methods from the literature including InterfaceGAN, GANSpace, and Style Mixing. The goal is to give semantic meaning to the latent space of a pretrained StyleGAN2 model trained on the FFHQ dataset (faces).
 
-## Key Results
+## Key Contributions
 
-- Result 1
-- Result 2
-- Result 3
+- Implementation of InterfaceGAN for semantic attribute editing
+- GANSpace method for principal direction analysis
+- Style mixing for compositional image generation
+- Real image projection into latent space (W)
+- Integration of multiple state-of-the-art techniques
+
+## Technologies
+
+- **Language**: Python, CUDA, C++
+- **Framework**: PyTorch
+- **Techniques**: StyleGAN2, InterfaceGAN, GANSpace, SVM, PCA
 
 ## Project Report
 
-View or download the full project report below:
+View or download the full project report:
 
-{% include pdf.liquid path="assets/img/project_reports/report_1.pdf" caption="Project Report 1" %}
+{% include pdf.liquid path="assets/img/project_reports/semantic_stylegan_report.pdf" caption="Semantic StyleGAN Report" %}
+
+## Repository
+
+[View on GitHub](https://github.com/sachkho/semantic_stylegan)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
