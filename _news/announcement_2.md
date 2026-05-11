@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-Started my Master's degree in **IASD** (Artificial Intelligence and Advanced Data Science) at PSL University in Paris, a joint program between ENS Ulm, Mines Paris, and Université Paris-Dauphine 
+Started my Master's degree in **IASD** (Artificial Intelligence and Advanced Data Science) at PSL University in Paris, a joint program between ENS Ulm, Mines Paris, and Université Paris-Dauphine <img src="{{ '/assets/img/psl.png' | relative_url }}" alt="PSL Logo" style="height: 1.2em; vertical-align: middle; margin-left: 5px;">
 
