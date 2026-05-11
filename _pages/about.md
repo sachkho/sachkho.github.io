@@ -2,18 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Research Intern @ Mathis Group | AI & Computer Vision | Paris & Geneva
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Mathis Group for Computational Neuroscience and AI</p>
+    <p>Berlin, Germany</p>
+    <p>khosrowsacha@gmail.com</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Grad student passionate about the AI research field. I am currently finishing my Master's degree, [IASD](https://dauphine.psl.eu/en/training/masters-degrees/computer-science/m2-artificial-intelligence-systems-data#) : a joint AI master's from ENS Ulm, Mines Paris and Université Paris-Dauphine). I am completing this master's in parallel with my engineering diploma from [Télécom Paris](https://www.telecom-paris.fr/en/home) majoring in Computer Vision and Mathematics for Artificial Intelligence. During those years of studying I have had the chance to work on many research projects and I am now pursuing a research-oriented career. This is why I am now doing my graduate internship as a Research Intern at the [Mathis Group for Computational Neuroscience and AI](https://mathislab.org/).
+I am a Research Intern at the [Mathis Group for Computational Neuroscience and AI](https://mathislab.org/), working on computer vision and latent representations in neural systems. 
 
+I recently completed my Master's degree in [IASD](https://dauphine.psl.eu/en/training/masters-degrees/computer-science/m2-artificial-intelligence-systems-data#) (Artificial Intelligence and Advanced Data Science), a joint program between ENS Ulm, Mines Paris, and Université Paris-Dauphine. I also hold an engineering diploma from [Télécom Paris](https://www.telecom-paris.fr/en/home), where I specialized in Computer Science and Mathematics for AI.
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include computer vision, deep learning, and understanding latent representations in neural networks.
