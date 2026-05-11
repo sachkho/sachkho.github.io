@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my engineering diploma at **Télécom Paris**, specializing in Computer Science and AI 💻
+Started my engineering diploma at **Télécom Paris**, specializing in Computer Science and AI 

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started my research internship at the **Mathis Group for Computational Neuroscience and AI** 🚀
+Started my research internship at the **Mathis Group for Computational Neuroscience and AI** 
