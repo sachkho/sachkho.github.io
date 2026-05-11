@@ -1,3 +1,18 @@
+// Add transitions for elements that will be blurred
+.navbar,
+footer,
+.post-header {
+  transition: filter 0.4s ease, opacity 0.4s ease;
+}
+
+// When a project item is hovered, blur other page elements
+body:has(.projects .grid-item:hover) .navbar:not(:hover),
+body:has(.projects .grid-item:hover) footer:not(:hover),
+body:has(.projects .grid-item:hover) .post-header:not(:hover) {
+  filter: blur(4px);
+  opacity: 0.5;
+  pointer-events: none;
+}
 /*******************************************************************************
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
@@ -149,13 +164,6 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  /* Focus & Blur Animation */
-  &:hover .grid-item {
-    filter: blur(6px);
-    opacity: 0.5;
-    transform: scale(0.95);
-  }
-
   .col {
     padding-bottom: 1rem;
   }
@@ -164,15 +172,20 @@ ul.task-list input[type="checkbox"] {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
-    transition: filter 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
-    position: relative;
+    position: relative; // Needed for z-index
+    transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+  }
 
-    &:hover {
-      filter: blur(0) !important;
-      opacity: 1 !important;
-      transform: scale(1.05) !important;
-      z-index: 10;
-    }
+  .grid-item:hover {
+    transform: scale(1.05);
+    z-index: 10; // Bring to front
+  }
+
+  // When a project item is hovered, blur other items
+  &:has(.grid-item:hover) .grid-item:not(:hover) {
+    filter: blur(4px);
+    opacity: 0.5;
+    transform: scale(0.95);
   }
 
   h2.category {
