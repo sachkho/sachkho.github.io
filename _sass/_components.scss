@@ -165,10 +165,10 @@ ul.task-list input[type="checkbox"] {
 
     // Adjust text and padding so it fits inside the new smaller cards
     .card-body {
-      padding: 0.75rem;
-      .card-title { font-size: 1rem; }
+      padding: 0.5rem;
+      .card-title { font-size: 0.9rem; }
       .card-text { 
-        font-size: 0.8rem; 
+        font-size: 0.75rem; 
         margin-bottom: 0; 
       }
     }
@@ -190,11 +190,21 @@ ul.task-list input[type="checkbox"] {
 
   .col {
     padding-bottom: 1rem;
+
+    // Override Bootstrap's grid to fit 6 cards per row instead of 3
+    // This shrinks the wrappers by exactly half, forcing images to match!
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+
+    @media (min-width: 768px) {
+      flex: 0 0 16.666667% !important;
+      max-width: 16.666667% !important;
+    }
   }
 
   .grid-sizer,
   .grid-item {
-    width: 125px; // Half of the original 250px
+    width: 250px;
     margin-bottom: 10px;
   }
 
