@@ -1,6 +1,6 @@
 cv:
   name: Sacha Khosrowshahi
-  label: Research Intern & ML Enthusiast
+  label: Research Intern & Computer Vision/ML Graduate
   email: khosrowsacha@gmail.com
   location: "Paris & Geneva"
   image: "prof_pic.jpg"
@@ -26,21 +26,21 @@ cv:
         url: https://www.master-iasd.eu/
         area: AI and Advanced Data Science
         studyType: Master's Degree
-        start_date: 2022
-        end_date: 2024
+        start_date: 2025
+        end_date: 2026
         score: ""
-        courses: "Machine Learning, Computer Vision, Neural Networks"
+        courses: "Reinforcement Learning (O. Cappé), Optimization for ML (G. Peyré), Advanced Machine Learning (Yann Chevaleyre), Machine Learning with Kernel Methods (J.Mairal/ M.Arbel), Data Acquisition, Extraction and Storage (P. Senellart), 3D Point Cloud & Modeling (JeanEmmanuel Deschaud), LLM for code and proof (Marc Lelarge), Dimension reduction and manifold learning (Eddie Aamari)"
         highlights:
           - "Joint program between Mines Paris, ENS Ulm, and Université Paris-Dauphine"
-          - "Focus on AI and advanced data science techniques"
+          - "Focus on AI and advanced Machine Learning and Deep Learning techniques"
 
       - institution: Télécom Paris
         location: Paris, France
         url: https://www.telecom-paris.eu/
         area: Engineering & Computer Science
         studyType: Engineering Diploma
-        start_date: 2019
-        end_date: 2023
+        start_date: 2023
+        end_date: 2026
         highlights:
           - "Specialized in Computer Science and AI"
           - "Completed the engineer's program with focus on machine learning and computer vision"
@@ -48,8 +48,8 @@ cv:
     Experience:
       - company: Mathis Group
         position: Research Intern
-        location: Berlin, Germany (Remote/On-site)
-        start_date: 2024
+        location: Geneva, Switzerland
+        start_date: May 2026
         end_date: present
         summary: Research Intern at the Mathis Group for Computational Neuroscience and AI. Working on computer vision and latent representations in neural systems.
         highlights:
@@ -69,10 +69,6 @@ cv:
         icon: fa-solid fa-code
         keywords: "Python, JavaScript, C++, CUDA, Git"
 
-      - name: Data Science
-        level: Advanced
-        icon: fa-solid fa-chart-line
-        keywords: "Data Analysis, Visualization, Statistical Modeling, Numpy, Pandas"
 
     Languages:
       - name: French
@@ -80,3 +76,12 @@ cv:
 
       - name: English
         summary: "Fluent"
+
+      - name: German
+        summary: "Intermediate"
+
+      - name: Persian
+        summary: "Native speaker"
+
+      - name: Italian
+        summary: "Basic proficiency"
