@@ -193,12 +193,12 @@ ul.task-list input[type="checkbox"] {
 
     // Override Bootstrap's grid to fit 6 cards per row instead of 3
     // This shrinks the wrappers by exactly half, forcing images to match!
-    flex: 0 0 75% !important;
-    max-width: 75% !important;
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
 
     @media (min-width: 768px) {
-      flex: 0 0 50% !important;
-      max-width: 50% !important;
+      flex: 0 0 20% !important;
+      max-width: 20% !important;
     }
   }
 
