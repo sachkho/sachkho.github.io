@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: My Projects
 permalink: /projects/
 description: My research and AI projects
 nav: true
@@ -8,6 +8,11 @@ nav_order: 3
 display_categories: [work]
 horizontal: false
 ---
+<style>
+  .post-title {
+    font-family: 'Source Code Pro', monospace !important;
+  }
+</style>
 
 <!-- pages/projects.md -->
 <div class="projects">
