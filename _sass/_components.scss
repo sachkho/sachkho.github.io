@@ -39,14 +39,8 @@ ul.task-list input[type="checkbox"] {
 .card {
   background-color: var(--global-card-bg-color);
   border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px rgba(255, 255, 255, 0.25) inset;
   border: none;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-  }
 
   .card-img {
     width: 100%;
@@ -155,6 +149,13 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  /* Focus & Blur Animation */
+  &:hover .grid-item {
+    filter: blur(6px);
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+
   .col {
     padding-bottom: 1rem;
   }
@@ -163,6 +164,15 @@ ul.task-list input[type="checkbox"] {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
+    transition: filter 0.4s ease, opacity 0.4s ease, transform 0.4s ease;
+    position: relative;
+
+    &:hover {
+      filter: blur(0) !important;
+      opacity: 1 !important;
+      transform: scale(1.05) !important;
+      z-index: 10;
+    }
   }
 
   h2.category {
