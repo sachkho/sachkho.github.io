@@ -417,7 +417,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project/";
             },},{id: "projects-improving-gan-precision-and-recall-through-gmm-and-gradient-ascent",
           title: 'Improving GAN Precision and Recall through GMM and Gradient Ascent',
-          description: "Balancing precision and recall in Generative Adversarial Networks",
+          description: "Balancing precision and recall using novel methods in GAN training. A project exploring Gaussian Mixture Models and Discriminator Gradient Flow to enhance sample quality and diversity.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "teachings-data-science-fundamentals",
