@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Improving GAN Precision and Recall through GMM and Gradient Ascent"
-description: "Balancing precision and recall in Generative Adversarial Networks"
+description: "Balancing precision and recall using novel methods in GAN training. A project exploring Gaussian Mixture Models and Discriminator Gradient Flow to enhance sample quality and diversity."
 img: assets/img/GAN.png
 importance: 4
 category: work
