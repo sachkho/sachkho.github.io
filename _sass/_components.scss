@@ -138,6 +138,8 @@ ul.task-list input[type="checkbox"] {
   .card {
     img {
       width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
     }
   }
 
@@ -258,10 +260,4 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
-}
-
-.grid-item .card-img-top {
-  height: 250px; /* Vous pouvez ajuster cette hauteur selon vos préférences */
-  object-fit: cover; /* Permet de remplir l'espace en recadrant l'image sans la déformer */
-  object-position: center; /* Centre le recadrage sur l'image */
 }
