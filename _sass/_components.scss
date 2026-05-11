@@ -38,10 +38,20 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+  }
 
   .card-img {
     width: 100%;
     padding-top: 1.25rem;
+    border-radius: 12px 12px 0 0;
   }
 
   .card-title {
@@ -125,6 +135,8 @@ ul.task-list input[type="checkbox"] {
 // Projects
 
 .projects {
+  font-family: 'Cinzel Decorative', sans-serif; /* Replace with your desired font */
+
   a {
     text-decoration: none;
 
