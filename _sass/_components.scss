@@ -75,7 +75,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 70%; // Decrease this value to make the photo smaller on mobile screens
 
   .more-info {
     margin-bottom: 5px;
@@ -99,7 +99,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 15%; // Decrease this value to make the photo smaller on desktop screens
 
     .address {
       p {
