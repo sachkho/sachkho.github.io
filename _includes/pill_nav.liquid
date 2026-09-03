@@ -1,0 +1,17 @@
+{% assign sorted_pages = site.pages | sort: 'nav_order' %}
+<nav class="pill-nav" aria-label="Site sections">
+  <a class="pill {% if page.permalink == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">home</a>
+  {% for p in sorted_pages %}
+    {% if p.nav and p.autogen == null %}
+      {% assign parent_link = p.permalink | remove: 'index.html' %}
+      <a class="pill {% if page.url contains parent_link %}active{% endif %}" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    {% endif %}
+  {% endfor %}
+  {% if site.enable_darkmode %}
+    <button id="light-toggle" class="pill pill-icon" title="Change theme" type="button">
+      <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+      <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+      <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+    </button>
+  {% endif %}
+</nav>

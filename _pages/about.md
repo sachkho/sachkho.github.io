@@ -5,9 +5,8 @@ permalink: /
 subtitle: Research Intern @ Mathis Group | AI & Computer Vision | Paris & Geneva
 
 profile:
-  align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     
 

@@ -89,14 +89,6 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
-}
-
 @media (min-width: 576px) {
   .profile {
     width: 15%; // Decrease this value to make the photo smaller on desktop screens
@@ -223,52 +215,6 @@ ul.task-list input[type="checkbox"] {
 @media (min-width: 768px) {
   .repo {
     max-width: 50%;
-  }
-}
-
-// Social (bottom)
-
-.social {
-  text-align: center;
-
-  .contact-icons {
-    font-size: 4rem;
-
-    a {
-      img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
-      }
-
-      svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
-      }
-
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
-      }
-
-      &:hover {
-        text-decoration: none;
-
-        i::before {
-          color: var(--global-theme-color);
-        }
-      }
-    }
-  }
-
-  .contact-note {
-    font-size: 0.8rem;
   }
 }
 

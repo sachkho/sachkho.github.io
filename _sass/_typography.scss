@@ -38,10 +38,14 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration: underline;
+  text-decoration-color: var(--global-divider-color);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    text-decoration-color: currentColor;
   }
 
   &:hover:after :not(.nav-item.dropdown) {

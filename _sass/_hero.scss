@@ -1,0 +1,136 @@
+/*******************************************************************************
+ * Homepage hero: centered photo, name, bio, icon row and pill navigation —
+ * replaces the post-header/profile layout on the about page only.
+ ******************************************************************************/
+
+@use "variables" as v;
+
+.hero {
+  max-width: 640px;
+  margin: 4rem auto 0;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.hero-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+// Override the shared `.profile` component (also used by the people/profiles
+// page) so the hero photo is small, centered and always circular.
+.hero .profile {
+  width: 128px;
+  float: none;
+  margin: 0 auto 1.5rem;
+
+  img {
+    border-radius: 50%;
+  }
+
+  .more-info {
+    text-align: center;
+  }
+}
+
+.hero-name {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.35rem;
+}
+
+.hero-subtitle {
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.hero-bio {
+  color: var(--global-text-color);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.hero-icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+
+  a {
+    display: inline-flex;
+    text-decoration: none;
+
+    img {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+
+    svg {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+
+    i::before {
+      color: var(--global-text-color-light);
+      transition: color 0.15s ease;
+    }
+
+    &:hover i::before {
+      color: var(--global-text-color);
+    }
+  }
+}
+
+.hero-contact-note {
+  color: var(--global-text-color-light);
+  font-size: 0.8rem;
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+// Sections below the hero (news, latest posts, selected publications) —
+// kept functional but restyled to match the minimal, centered aesthetic.
+.hero-sections {
+  max-width: 640px;
+  margin: 3rem auto 0;
+  padding: 0 1rem;
+}
+
+.hero-section {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  &:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  h2 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -7,19 +7,23 @@
 :root {
   color-scheme: light;
   --global-bg-color: #{v.$white-color};
-  --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-code-bg-color: #f4f4f4;
+  --global-text-color: #111111;
+  --global-text-color-light: #6e6e6e;
+  --global-theme-color: #111111;
+  --global-hover-color: #000000;
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
+  --global-footer-bg-color: #{v.$white-color};
+  --global-footer-text-color: #6e6e6e;
+  --global-footer-link-color: #111111;
   --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{v.$white-color};
+  --global-divider-color: rgba(0, 0, 0, 0.12);
+  --global-card-bg-color: #fafafa;
   --global-highlight-color: #{v.$red-color-dark};
+  --global-pill-bg-color: #f0f0f0;
+  --global-pill-hover-bg-color: #e2e2e2;
+  --global-pill-active-bg-color: #111111;
+  --global-pill-active-text-color: #{v.$white-color};
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$black-color, "red", v.$space: rgb)},
     #{color.channel(v.$black-color, "green", v.$space: rgb)},
@@ -77,18 +81,22 @@
 html[data-theme="dark"] {
   color-scheme: dark;
   --global-bg-color: #000000;
-  --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
-  --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
+  --global-code-bg-color: #1a1a1a;
+  --global-text-color: #f2f2f2;
+  --global-text-color-light: #9a9a9a;
+  --global-theme-color: #ffffff;
+  --global-hover-color: #ffffff;
+  --global-hover-text-color: #000000;
+  --global-footer-bg-color: #000000;
+  --global-footer-text-color: #9a9a9a;
+  --global-footer-link-color: #f2f2f2;
   --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
+  --global-divider-color: rgba(255, 255, 255, 0.14);
   --global-card-bg-color: #0f0f0f;
+  --global-pill-bg-color: #1a1a1a;
+  --global-pill-hover-bg-color: #262626;
+  --global-pill-active-bg-color: #f2f2f2;
+  --global-pill-active-text-color: #000000;
   --global-back-to-top-bg-color: rgba(
     #{color.channel(v.$white-color, "red", v.$space: rgb)},
     #{color.channel(v.$white-color, "green", v.$space: rgb)},

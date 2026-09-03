@@ -27,9 +27,22 @@ footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
 
   .container {
     text-align: center;
+    color: var(--global-text-color-light);
+  }
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: underline;
+    text-decoration-color: var(--global-divider-color);
+
+    &:hover {
+      color: var(--global-text-color);
+      text-decoration-color: currentColor;
+    }
   }
 }
