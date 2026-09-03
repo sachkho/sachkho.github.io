@@ -14,11 +14,13 @@ Standard GANs struggle to balance precision and recall; improving visual quality
 ## Methodology
 
 ### Gaussian Mixture Models (GM-GAN)
+
 - Multi-modal structure imposed in latent space
 - Encourages generator to map regions to semantic modes
 - Parameter σ controls precision-diversity trade-off
 
 ### Discriminator Gradient Flow (DGFlow)
+
 - Refines samples using discriminator as density ratio estimator
 - Step size η controls gradient ascent magnitude
 - Diffusion coefficient γ prevents mode collapse

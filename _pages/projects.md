@@ -8,6 +8,7 @@ nav_order: 3
 display_categories: [work]
 horizontal: false
 ---
+
 <style>
   .post-title {
     font-family: 'Source Code Pro', monospace !important;

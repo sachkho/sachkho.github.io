@@ -57,7 +57,6 @@ cv:
           - "Computational Neuroscience and AI"
           - "Research on neural network representations"
 
-
     Skills:
       - name: Machine Learning & AI
         level: Advanced
@@ -68,7 +67,6 @@ cv:
         level: Advanced
         icon: fa-solid fa-code
         keywords: "Python, JavaScript, C++, CUDA, Git"
-
 
     Languages:
       - name: French

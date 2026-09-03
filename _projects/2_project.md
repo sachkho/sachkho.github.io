@@ -40,4 +40,3 @@ View or download the full project report:
 ## Repository
 
 [View on GitHub](https://github.com/sachkho/Project-Microtexture-Inpainting)
-

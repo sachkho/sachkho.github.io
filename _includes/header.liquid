@@ -3,7 +3,9 @@
     <div class="container site-header-inner">
       <a class="site-header-brand" href="{{ '/' | relative_url }}">
         {% if site.title == 'blank' %}
-          {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+          {{ site.first_name }}
+          {{ site.middle_name }}
+          {{ site.last_name }}
         {% else %}
           {{ site.title }}
         {% endif %}

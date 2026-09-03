@@ -14,6 +14,7 @@ This project implements 3D surface reconstruction from noisy point clouds using 
 ## Technical Innovation: Positional Encoding
 
 The original model suffered from spectral bias (over-smoothing). To address this, I implemented harmonic positional encoding that:
+
 - Transforms coordinates into higher-dimensional space using periodic functions
 - Captures high-frequency details and sharp features
 - Prevents merger of disconnected structures
@@ -41,4 +42,3 @@ View or download the full project report:
 ## Repository
 
 [View on GitHub](https://github.com/sachkho/Noise2Noise-Surface-Reconstruction)
-

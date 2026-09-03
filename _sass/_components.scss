@@ -2,7 +2,9 @@
 .navbar,
 footer,
 .post-header {
-  transition: filter 0.4s ease, opacity 0.4s ease;
+  transition:
+    filter 0.4s ease,
+    opacity 0.4s ease;
 }
 
 // When a project item is hovered, blur other page elements
@@ -136,7 +138,7 @@ ul.task-list input[type="checkbox"] {
 // Projects
 
 .projects {
-  font-family: 'Source Code Pro', sans-serif; /* Replace with your desired font */
+  font-family: "Source Code Pro", sans-serif; /* Replace with your desired font */
 
   a {
     text-decoration: none;
@@ -158,13 +160,18 @@ ul.task-list input[type="checkbox"] {
     // Adjust text and padding so it fits inside the new smaller cards
     .card-body {
       padding: 0.5rem;
-      .card-title { font-size: 0.9rem; }
-      .card-text { 
-        font-size: 0.75rem; 
-        margin-bottom: 0; 
+      .card-title {
+        font-size: 0.9rem;
+      }
+      .card-text {
+        font-size: 0.75rem;
+        margin-bottom: 0;
       }
     }
-    transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+    transition:
+      transform 0.4s ease,
+      filter 0.4s ease,
+      opacity 0.4s ease;
     position: relative; // Needed for z-index scaling
   }
 
