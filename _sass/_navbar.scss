@@ -89,7 +89,7 @@
   border: none;
   text-decoration: none;
   white-space: nowrap;
-  transition: background-color 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease;
   cursor: pointer;
 
   &:hover {
@@ -101,6 +101,11 @@
   &.active {
     background-color: var(--global-pill-active-bg-color);
     color: var(--global-pill-active-text-color);
+  }
+
+  &:not(.pill-icon):hover {
+    background: linear-gradient(135deg, v.$flashy-green, rgba(v.$flashy-green, 0.45));
+    color: #000000;
   }
 }
 
