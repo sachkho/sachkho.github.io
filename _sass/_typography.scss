@@ -23,6 +23,11 @@ hr {
   border-top: 1px solid var(--global-divider-color);
 }
 
+::selection {
+  background-color: #39ff14;
+  color: #000000;
+}
+
 table {
   td,
   th {
