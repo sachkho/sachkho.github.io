@@ -34,7 +34,7 @@ hr {
 }
 
 ::selection {
-  background-color: #39ff14;
+  background-color: v.$flashy-green;
   color: #000000;
 }
 
@@ -60,7 +60,7 @@ table.table a {
 
   &:hover {
     color: var(--global-theme-color);
-    text-decoration-color: currentColor;
+    text-decoration-color: v.$flashy-green;
   }
 
   &:hover:after :not(.nav-item.dropdown) {
