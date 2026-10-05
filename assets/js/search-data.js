@@ -420,6 +420,16 @@ ninja.data = [{
           description: "Balancing precision and recall in GANs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-esk-interaction-aware-object-segmentation",
+          title: 'ESK: Interaction-Aware Object Segmentation',
+          description: "Geometry-guided orchestration of SAM 3 for manipulated-object segmentation in EPFL-Smart-Kitchen-30",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/esk-object-segmentation/";
+            },},{id: "projects-stromae-multimodal-behaviour-understanding",
+          title: 'STrOMAE: Multimodal Behaviour Understanding',
+          description: "A unified VideoMAE fine-tuning framework for multimodal, multi-task behaviour recognition",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/stromae/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
